@@ -1,0 +1,162 @@
+html {
+    background-color: lightgrey;
+  }
+  
+  body {
+      
+      font-family:  -apple-system, BlinkMacSystemFont, “Segoe UI”, “Roboto”, “Oxygen”, “Ubuntu”, “Cantarell”, “Fira Sans”, “Droid Sans”, “Helvetica Neue”, sans-serif;
+      text-align: center; 
+      margin: 2% 15%;
+      background-color: white;
+      border-radius: 15px;
+      padding: 5px 20px;
+  }
+  
+  h1 {
+      color: #003B6F;
+      text-decoration: underline;
+  }
+  
+  a {
+      color:  #E60028;
+      text-decoration: none;
+  }
+  
+  a:hover {
+      text-decoration: underline !important;
+  }
+  
+  
+  #location {
+      color: #373940;
+      font-size: 19px;
+  }
+  
+  #profile-img {
+      border-radius: 30%; 
+  }
+  
+  #tagline {
+      color: #373940;
+  }
+  
+  #content {
+      text-align: left !important;
+  }
+  
+  #profile-social-icons .fab, .fa {
+      
+      font-size: 26px !important; 
+      color: #373940;
+      padding-bottom: 15px;
+  }
+  
+  footer {
+      padding: 5px 0;
+      border-top: 1px dotted #373940;
+  }
+  body {
+    font-family: 'Source Code Pro', sans-serif;
+  }
+  
+  .wrap {
+    padding: 1% 2%;
+  }
+  
+  .underlined {
+    color: black;
+    flex: 1;
+    font-size: 1em;
+    line-height: 1.2;
+    text-decoration: none;
+    background-image: linear-gradient(to right, yellow 0, yellow 100%);
+    background-position: 0 1.2em;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: background .5s;
+  }
+  .underlined--reverse {
+    background-position: 100% -0.1em;
+    transition: background 1s;
+    background-image: linear-gradient(to right, yellow 0, yellow 100%);
+  }
+  p{
+    margin-top: 1em;
+  }
+@import url(https://fonts.googleapis.com/css?family=Exo:100);
+
+@-webkit-keyframes bg-scrolling-reverse {
+100% {
+    background-position: 50px 50px;
+}
+}
+
+@-moz-keyframes bg-scrolling-reverse {
+100% {
+    background-position: 50px 50px;
+}
+}
+
+@-o-keyframes bg-scrolling-reverse {
+100% {
+    background-position: 50px 50px;
+}
+}
+
+@keyframes bg-scrolling-reverse {
+100% {
+    background-position: 50px 50px;
+}
+}
+
+@-webkit-keyframes bg-scrolling {
+0% {
+    background-position: 50px 50px;
+}
+}
+
+@-moz-keyframes bg-scrolling {
+0% {
+    background-position: 50px 50px;
+}
+}
+
+@-o-keyframes bg-scrolling {
+0% {
+    background-position: 50px 50px;
+}
+}
+
+@keyframes bg-scrolling {
+0% {
+    background-position: 50px 50px;
+}
+}
+/* Main styles */
+body {
+    margin-top: 13.5rem;
+    color: rgb(12, 12, 12);
+    font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+    text-align: center;
+    /* img size is 50x50 */
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+    -webkit-animation: bg-scrolling-reverse 0.92s infinite;
+    /* Safari 4+ */
+    -moz-animation: bg-scrolling-reverse 0.92s infinite;
+    /* Fx 5+ */
+    -o-animation: bg-scrolling-reverse 0.92s infinite;
+    /* Opera 12+ */
+    animation: bg-scrolling-reverse 0.92s infinite;
+    /* IE 10+ */
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+body::before {
+    content: "";
+    font-size: 4rem;
+    font-weight: 100;
+    font-style: normal;
+}
